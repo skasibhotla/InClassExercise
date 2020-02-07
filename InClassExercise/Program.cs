@@ -20,6 +20,8 @@ namespace InClassExercise
 
             Car Ford = new Car("Mustang", "Red", 1969);
             Car Opel = new Car("Astra", "White", 2005);
+            Person me = new Person();
+            Console.WriteLine(me.Name);
 
             Console.WriteLine(Ford.model);
             Console.WriteLine(Opel.model);

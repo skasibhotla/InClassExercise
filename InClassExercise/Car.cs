@@ -5,6 +5,7 @@ namespace InClassExercise
     class Car
     {
         public string model;
+        
         public string color;
         public int year;
         public void fullThrottle()
